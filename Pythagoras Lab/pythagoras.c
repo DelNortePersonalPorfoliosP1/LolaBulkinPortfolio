@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(int argc, const char * argv[]) {
+int pythagoras(void) {
     
     double side1;
     double side2;
