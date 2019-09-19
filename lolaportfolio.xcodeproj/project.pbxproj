@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5B22E512328072800430822 /* pythagoras.c in Sources */ = {isa = PBXBuildFile; fileRef = E5B22E502328072800430822 /* pythagoras.c */; };
+		E5B7A92B2333DCE800840E5B /* datatypes.c in Sources */ = {isa = PBXBuildFile; fileRef = E5B7A92A2333DCE800840E5B /* datatypes.c */; };
 		E5BB58FB2333D7C2002C4802 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E5BB58FA2333D7C2002C4802 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		E55E044E232BF56100AB82BF /* pythagoras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagoras.h; sourceTree = "<group>"; };
 		E5B22E4D2328072800430822 /* lolaportfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lolaportfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B22E502328072800430822 /* pythagoras.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pythagoras.c; sourceTree = "<group>"; };
+		E5B7A9292333DCE800840E5B /* datatypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
+		E5B7A92A2333DCE800840E5B /* datatypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = datatypes.c; sourceTree = "<group>"; };
 		E5BB58FA2333D7C2002C4802 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +63,8 @@
 		E5B22E4F2328072800430822 /* lolaportfolio */ = {
 			isa = PBXGroup;
 			children = (
+				E5B7A92A2333DCE800840E5B /* datatypes.c */,
+				E5B7A9292333DCE800840E5B /* datatypes.h */,
 				E5BB58FA2333D7C2002C4802 /* main.c */,
 				E5B22E502328072800430822 /* pythagoras.c */,
 				E55E044E232BF56100AB82BF /* pythagoras.h */,
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5BB58FB2333D7C2002C4802 /* main.c in Sources */,
+				E5B7A92B2333DCE800840E5B /* datatypes.c in Sources */,
 				E5B22E512328072800430822 /* pythagoras.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
