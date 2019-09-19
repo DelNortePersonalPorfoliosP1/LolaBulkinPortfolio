@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		E55E044C232BF50800AB82BF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = "../../LolaBulkinPortfolio/Pythagoras Lab/main.c"; sourceTree = "<group>"; };
 		E55E044E232BF56100AB82BF /* pythagoras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagoras.h; sourceTree = "<group>"; };
-		E5B22E4D2328072800430822 /* Pythagoras Lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pythagoras Lab"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B22E4D2328072800430822 /* lolaportfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lolaportfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B22E502328072800430822 /* pythagoras.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pythagoras.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +44,7 @@
 		E5B22E442328072800430822 = {
 			isa = PBXGroup;
 			children = (
-				E5B22E4F2328072800430822 /* Pythagoras Lab */,
+				E5B22E4F2328072800430822 /* lolaportfolio */,
 				E5B22E4E2328072800430822 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,27 @@
 		E5B22E4E2328072800430822 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5B22E4D2328072800430822 /* Pythagoras Lab */,
+				E5B22E4D2328072800430822 /* lolaportfolio */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5B22E4F2328072800430822 /* Pythagoras Lab */ = {
+		E5B22E4F2328072800430822 /* lolaportfolio */ = {
 			isa = PBXGroup;
 			children = (
 				E55E044C232BF50800AB82BF /* main.c */,
 				E5B22E502328072800430822 /* pythagoras.c */,
 				E55E044E232BF56100AB82BF /* pythagoras.h */,
 			);
-			path = "Pythagoras Lab";
+			path = lolaportfolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5B22E4C2328072800430822 /* Pythagoras Lab */ = {
+		E5B22E4C2328072800430822 /* lolaportfolio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5B22E542328072800430822 /* Build configuration list for PBXNativeTarget "Pythagoras Lab" */;
+			buildConfigurationList = E5B22E542328072800430822 /* Build configuration list for PBXNativeTarget "lolaportfolio" */;
 			buildPhases = (
 				E5B22E492328072800430822 /* Sources */,
 				E5B22E4A2328072800430822 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pythagoras Lab";
+			name = lolaportfolio;
 			productName = "Pythagoras Lab";
-			productReference = E5B22E4D2328072800430822 /* Pythagoras Lab */;
+			productReference = E5B22E4D2328072800430822 /* lolaportfolio */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5B22E482328072800430822 /* Build configuration list for PBXProject "Pythagoras Lab" */;
+			buildConfigurationList = E5B22E482328072800430822 /* Build configuration list for PBXProject "lolaportfolio" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5B22E4C2328072800430822 /* Pythagoras Lab */,
+				E5B22E4C2328072800430822 /* lolaportfolio */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5B22E482328072800430822 /* Build configuration list for PBXProject "Pythagoras Lab" */ = {
+		E5B22E482328072800430822 /* Build configuration list for PBXProject "lolaportfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5B22E522328072800430822 /* Debug */,
@@ -270,7 +270,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5B22E542328072800430822 /* Build configuration list for PBXNativeTarget "Pythagoras Lab" */ = {
+		E5B22E542328072800430822 /* Build configuration list for PBXNativeTarget "lolaportfolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5B22E552328072800430822 /* Debug */,
