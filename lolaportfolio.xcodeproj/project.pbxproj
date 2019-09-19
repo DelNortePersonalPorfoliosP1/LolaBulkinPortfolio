@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E55E044D232BF50800AB82BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E55E044C232BF50800AB82BF /* main.c */; };
 		E5B22E512328072800430822 /* pythagoras.c in Sources */ = {isa = PBXBuildFile; fileRef = E5B22E502328072800430822 /* pythagoras.c */; };
+		E5BB58FB2333D7C2002C4802 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E5BB58FA2333D7C2002C4802 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E55E044C232BF50800AB82BF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = "../../LolaBulkinPortfolio/Pythagoras Lab/main.c"; sourceTree = "<group>"; };
 		E55E044E232BF56100AB82BF /* pythagoras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagoras.h; sourceTree = "<group>"; };
 		E5B22E4D2328072800430822 /* lolaportfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lolaportfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B22E502328072800430822 /* pythagoras.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pythagoras.c; sourceTree = "<group>"; };
+		E5BB58FA2333D7C2002C4802 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		E5B22E4F2328072800430822 /* lolaportfolio */ = {
 			isa = PBXGroup;
 			children = (
-				E55E044C232BF50800AB82BF /* main.c */,
+				E5BB58FA2333D7C2002C4802 /* main.c */,
 				E5B22E502328072800430822 /* pythagoras.c */,
 				E55E044E232BF56100AB82BF /* pythagoras.h */,
 			);
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E55E044D232BF50800AB82BF /* main.c in Sources */,
+				E5BB58FB2333D7C2002C4802 /* main.c in Sources */,
 				E5B22E512328072800430822 /* pythagoras.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
