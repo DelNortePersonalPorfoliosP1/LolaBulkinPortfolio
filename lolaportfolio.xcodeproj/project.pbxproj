@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E5B22E512328072800430822 /* pythagoras.c in Sources */ = {isa = PBXBuildFile; fileRef = E5B22E502328072800430822 /* pythagoras.c */; };
-		E5B7A92B2333DCE800840E5B /* datatypes.c in Sources */ = {isa = PBXBuildFile; fileRef = E5B7A92A2333DCE800840E5B /* datatypes.c */; };
 		E5BB58FB2333D7C2002C4802 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E5BB58FA2333D7C2002C4802 /* main.c */; };
+		E5CD332F23352E6F00F3C591 /* datatypes.c in Sources */ = {isa = PBXBuildFile; fileRef = E5CD332E23352E6F00F3C591 /* datatypes.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,9 @@
 		E55E044E232BF56100AB82BF /* pythagoras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagoras.h; sourceTree = "<group>"; };
 		E5B22E4D2328072800430822 /* lolaportfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lolaportfolio; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B22E502328072800430822 /* pythagoras.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pythagoras.c; sourceTree = "<group>"; };
-		E5B7A9292333DCE800840E5B /* datatypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
-		E5B7A92A2333DCE800840E5B /* datatypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = datatypes.c; sourceTree = "<group>"; };
 		E5BB58FA2333D7C2002C4802 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E5CD332D23352E6F00F3C591 /* datatypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = datatypes.h; sourceTree = "<group>"; };
+		E5CD332E23352E6F00F3C591 /* datatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = datatypes.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,10 @@
 		E5B22E442328072800430822 = {
 			isa = PBXGroup;
 			children = (
-				E5B22E4F2328072800430822 /* lolaportfolio */,
+				E5BB58FA2333D7C2002C4802 /* main.c */,
+				E5CD332D23352E6F00F3C591 /* datatypes.h */,
+				E5CD332E23352E6F00F3C591 /* datatypes.c */,
+				E5B22E4F2328072800430822 /* pythagoraslab */,
 				E5B22E4E2328072800430822 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,16 +63,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5B22E4F2328072800430822 /* lolaportfolio */ = {
+		E5B22E4F2328072800430822 /* pythagoraslab */ = {
 			isa = PBXGroup;
 			children = (
-				E5B7A92A2333DCE800840E5B /* datatypes.c */,
-				E5B7A9292333DCE800840E5B /* datatypes.h */,
-				E5BB58FA2333D7C2002C4802 /* main.c */,
 				E5B22E502328072800430822 /* pythagoras.c */,
 				E55E044E232BF56100AB82BF /* pythagoras.h */,
 			);
-			path = lolaportfolio;
+			path = pythagoraslab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5BB58FB2333D7C2002C4802 /* main.c in Sources */,
-				E5B7A92B2333DCE800840E5B /* datatypes.c in Sources */,
+				E5CD332F23352E6F00F3C591 /* datatypes.c in Sources */,
 				E5B22E512328072800430822 /* pythagoras.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
