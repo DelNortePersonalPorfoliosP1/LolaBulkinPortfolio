@@ -13,7 +13,11 @@
 int main(int argc, const char * argv[]) {
     
     int a;
-    printf("what lab do u want to run? choose 1 or 2");
+    
+    printf("1-Pythagoras\n");
+    printf("2-DataTypes\n");
+    printf("what lab do u want to run? choose 1 or 2\n");
+    
     scanf("%i",&a);
     if (a==1){
     pythagoras();
